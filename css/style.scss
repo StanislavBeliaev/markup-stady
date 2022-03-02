@@ -1,0 +1,440 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+
+}
+.img__topline{
+    display: block;
+    margin: auto;
+    }
+.header__container{
+    max-width: 1170px;
+    height: 115px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+ 
+    .header__logo{
+        width: 170px;
+        height: 115px;
+        display:   flex ;
+        flex-flow: column wrap;
+        justify-content: center;
+    }
+    .logo__website-name{
+        font-size: 30px;
+        font-family: 'Fjalla One';
+        color: #5c5c5c;
+        height: 31px;
+    }
+    .logo__lorem{
+        font-size: 12px;
+        font-family: 'Fjalla One';
+        color: #a5a5a5;
+    }
+}
+.header__link{
+    text-decoration: none;
+    color: #a5a5a5;
+    font-size: 14px;
+    font-family: 'Fjalla One';
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    width: 70px;
+    height: 56px;
+    &:hover{
+        color: #ffffff;
+        background-color: #e24f43;
+        border-radius: 3px;
+    }
+}
+.header__menu{
+    display: flex;
+    align-items: center;
+    width: 470px;
+}
+ul{
+    margin: 0;
+    padding: 0px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+li{
+        list-style: none;
+}
+.banner__container{
+    margin: auto;
+    width: 1170px;
+    height: 440px;
+    background-image: url(../img/girl.png);
+    display: flex;
+    flex-wrap: wrap;
+    .titles__container1{
+        display: flex;
+        align-items: end;
+        width:585px;
+        height:220px;
+        .banner__titles1{
+            font-family: 'Fjalla One';
+            font-size: 18px;
+            color: #ffffff;
+            text-transform: uppercase;
+            display: flex;
+            align-items: center;
+            width: 208px;
+            height: 40px;
+            padding-left: 10px;
+            background-color: black;
+            &:hover{
+                background-color: #e24f43;
+            }
+        }
+    }
+    .titles__container2{
+        display: flex;
+        align-items: end;
+        width:585px;
+        height:220px;
+        .banner__titles2{
+            font-family: 'Fjalla One';
+            font-size: 18px;
+            color: #ffffff;
+            text-transform: uppercase;
+            display: flex;
+            align-items: center;
+            width: 101px;
+            height: 40px;
+            padding-left: 10px;
+            background-color: black;
+            &:hover{
+                background-color: #e24f43;
+            }
+        }
+    }
+    .titles__container3{
+        display: flex;
+        align-items: end;
+        width:585px;
+        height:220px;
+        .banner__titles3{
+            font-family: 'Fjalla One';
+            font-size: 18px;
+            color: #ffffff;
+            text-transform: uppercase;
+            display: flex;
+            align-items: center;
+            width: 158px;
+            height: 40px;
+            padding-left: 10px;
+            background-color: black;
+            &:hover{
+                background-color: #e24f43;
+            }
+        }
+        
+    }
+    .titles__container4{
+        display: flex;
+        align-items: end;      
+        width:585px;
+        height:220px;
+        .banner__titles4{
+            font-family: 'Fjalla One';
+            font-size: 18px;
+            color: #ffffff;
+            text-transform: uppercase;
+            display: flex;
+            align-items: center;
+            width: 255px;
+            height: 40px;
+            padding-left: 10px;
+            background-color: black;
+            &:hover{
+                background-color: #e24f43;
+            }
+    }
+    }
+}
+.title__container-general{
+    margin: auto;
+    width: 1170px;
+    height: 117px;
+    margin-top: 59px;
+    display: flex;
+    flex-flow: row-reverse;
+    justify-content: space-between;
+    .title__container{
+        width: 670px;
+        height: 117px;
+        display: flex;
+        flex-flow: column wrap;
+        .title__text{
+            font-size: 18px;
+            font-family: 'Fjalla One';
+            color: #a5a5a5;
+            text-transform: uppercase;
+            padding-top: 5px;
+        }
+        .title__h1{
+            margin: 0px;
+            font-size: 30px;
+            font-family: 'Fjalla One';
+            text-transform: uppercase;
+            height: 30px;
+            color: #5c5c5c;
+            
+        }
+
+
+    }
+}
+.title__button{
+    font-size: 20px;
+    font-family: 'Fjalla One';
+    width: 230px;
+    height: 54px;
+    text-transform: uppercase;
+    color: #ffffff;
+    background-color: #e24f43;
+    border: transparent;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 19px;
+}
+.icon-arrow-right2:before {
+    content: "\1f5c3";
+  }
+
+.row__container-general{
+    margin: auto;
+    margin-top: 60px;
+    width: 1170px;
+    height: 360px;
+    display: flex;
+    flex-flow: column wrap;
+    .row__column1{
+        display: flex;
+        flex-flow: column wrap;
+        width: 570px;
+        height: 130px;
+    }
+    .row__column2{
+        display: flex;
+        flex-flow: column wrap;
+        width: 570px;
+        height: 130px;
+        margin-top: 42px;
+    }
+    .row__column3{
+        display: flex;
+        flex-flow: column wrap;
+        width: 570px;
+        height: 130px;
+    }
+    .row__column4{
+        display: flex;
+        flex-flow: column wrap;
+        width: 570px;
+        height: 130px;
+        margin-top: 42px;
+    }
+}
+.row__circle{
+    width: 130px;
+    height: 130px;
+    border: 1px solid;
+    border-radius: 50%;
+    border-color: #a5a5a5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #e24f43;
+    font-size: 40px;
+}
+.row__column-text1{
+    font-size: 20px;
+    text-transform: uppercase;
+    font-family: 'Fjalla One';
+    color: #5c5c5c;
+    padding-top: 30px;
+
+}
+.row__column-text2{
+    font-size: 14px;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #a5a5a5;
+    padding-top: 15px;
+}    
+.icon-cloud-upload:before {
+    content: "\e900";
+  }
+  .icon-cogs:before {
+    content: "\e903";
+  }
+  .icon-wrench:before {
+    content: "\e901";
+  }
+  .icon-umbrella:before {
+    content: "\e902";
+  }
+.subscribe__container{
+    margin: auto;
+    width: 1170px;
+    height: 100px;
+    border-radius: 3px;
+    background-color: #5c5c5c;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .subscribe__text{
+        font-size: 30px;
+        font-family: 'Fjalla One';
+        color: #ffffff;
+        text-transform: uppercase;
+        padding-left: 30px;
+    }
+}
+.subscrive__form{
+    width: 900px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .subscribe__name{
+        text-indent:10px;
+        border-radius: 3px;
+        border:transparent;
+        width: 340px;
+        height: 40px;
+    }
+    .subscribe__email{
+        text-indent:10px;
+        border-radius: 3px;
+        border:transparent;
+        width: 340px;
+        height: 40px;
+    }
+    .subscribe__button{
+        font-size: 18px;
+        font-family: 'Fjalla One';
+        text-transform: uppercase;
+        width: 130px;
+        height: 40px;
+        background-color: #e24f43;
+        border-radius: 3px;
+        border:transparent;
+        color: #ffffff;
+        margin-right: 50px;
+    }
+}
+.panel-img__container{
+    margin: auto;
+    width: 1170px;
+    height: 192px;
+    margin-top: 60px;
+    
+    .panel__img{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        height: 192px;
+        
+    }
+}
+.panel-ourteam{
+    margin: auto;
+    width: 1170px;
+    height: 265px;
+    display: flex;
+    justify-content: space-between;
+    .panel-ourteam__container{
+        display: flex;
+        flex-direction: column;
+        width: 269px;
+        height: 265px;
+        border: 1px solid #dfdfdf;
+        .panel-ourteam__text2{
+        color: #a5a5a5;
+        font-size: 14px;
+        font-family: 'Fjalla One';
+        padding-top: 25px;
+        padding-left: 29px;
+        }
+        .panel-ourteam__text1{
+        padding-top: 30px;
+        padding-left: 29px;
+        color: #5c5c5c;
+        font-size: 20px;
+        font-family: 'Fjalla One';
+        text-transform: uppercase;
+        }
+        .panel__button{
+            font-size: 14px;
+            font-family: 'Fjalla One';
+            color: #ffffff;
+            background-color: #e24f43;
+            border: transparent;
+            text-transform: uppercase;
+            border-radius: 3px;
+            margin-top: 30px;
+            margin-left: 29px;
+            width: 50px;
+            height: 30px;
+        }
+
+    }
+}
+.footer__container{
+    margin: auto;
+    margin-top: 60px;
+    width: 1170px;
+    height: 176px;
+    border-top: 1px solid #dfdfdf;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .footer__text-container{
+        width: 269px;
+        .footer__text{
+            height: 30px;
+            font-size: 20px;
+            font-family: 'Fjalla One';
+            color: #5c5c5c;
+            text-transform: uppercase;
+        }
+        .footer__text2{
+            font-size: 14px;
+            font-family: 'Source Sans Pro', sans-serif;
+            color: #a5a5a5;
+        }
+        .icon-facebook2:before {
+            content: "\ea91";
+            color: #e24f43;
+            font-size: 11px;
+        
+          }
+          .icon-twitter:before {
+            content: "\ea96";
+            color: #e24f43;
+            font-size: 13px;
+          }
+        .footer__social{
+            padding-left: 3px;
+            font-size: 14px;
+            font-family: 'Source Sans Pro', sans-serif;
+            color:#a5a5a5 ;
+            text-decoration: none;
+        }
+    }
+}
+
+
+    
